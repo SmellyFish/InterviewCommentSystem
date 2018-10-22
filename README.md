@@ -27,6 +27,7 @@ What we are looking for (in order of importance):
 ## Installation
   * Check out the files in this repo
   * Create a (virtual)?host and point it to the `public` directory of this repo
-  * From the root of the repo, run `composer install`. [More info about Composer](https://getcomposer.org/) 
+  * From the root of the repo, run `composer install`. [More info about Composer](https://getcomposer.org/)
+  * Create a MySQL database and import schema structure from `sql/install.sql`  
   * Copy `conf/config.json.sample` to `conf/config.json` and fill out MySQL credentials
   * Access the app via browser 
